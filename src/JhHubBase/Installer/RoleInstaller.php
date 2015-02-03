@@ -76,7 +76,6 @@ class RoleInstaller implements EventManagerAwareInterface
     public function createRoles(array $roles, HierarchicalRole $parentRole = null)
     {
         foreach ($roles as $roleName => $options) {
-
             if (is_numeric($roleName) && is_scalar($options)) {
                 /*
                     this is possibly last role in the tree like:
@@ -124,7 +123,6 @@ class RoleInstaller implements EventManagerAwareInterface
         }
 
         if (null !== $parentRole) {
-
             $assignToParent = true;
             //if this is an existing role
             //check it doesn't already exist
