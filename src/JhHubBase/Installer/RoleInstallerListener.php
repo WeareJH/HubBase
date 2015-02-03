@@ -27,7 +27,7 @@ class RoleInstallerListener extends AbstractListenerAggregate
      */
     public function __construct(ConsoleAdapter $consoleAdapter)
     {
-       $this->consoleAdapter = $consoleAdapter;
+        $this->consoleAdapter = $consoleAdapter;
     }
 
     /**

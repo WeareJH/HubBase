@@ -1,6 +1,7 @@
 <?php
 
 namespace JhHubBaseTest\Controller;
+
 use JhHubBase\Controller\IndexController;
 
 /**

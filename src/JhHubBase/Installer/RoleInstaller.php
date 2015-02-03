@@ -47,7 +47,7 @@ class RoleInstaller implements EventManagerAwareInterface
      * @param ObjectManager $objectManager
      */
     public function __construct(
-        array $config = array(),
+        array $config,
         RoleRepositoryInterface $roleRepository,
         PermissionRepositoryInterface $permissionRepository,
         ObjectManager $objectManager

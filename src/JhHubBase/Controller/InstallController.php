@@ -29,7 +29,8 @@ class InstallController extends AbstractActionController
      * @param Installer $installer
      * @param AdapterInterface $console
      */
-    public function __construct(Installer $installer, AdapterInterface $console) {
+    public function __construct(Installer $installer, AdapterInterface $console)
+    {
         $this->installer   = $installer;
         $this->console     = $console;
     }
